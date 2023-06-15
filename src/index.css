@@ -1,13 +1,82 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{ 
+  background-color: #f7d3e0;
+  background-image: linear-gradient(rgb(220, 168, 186), rgb(201, 96, 126));
+  }
+
+
+
+.lipsticks-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.lipstick-item {
+  background-image: linear-gradient(rgb(97, 12, 42), rgb(166, 67, 99));
+  background-color: rgb(94, 15, 50);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(216, 110, 135);
+  color: rgb(219, 219, 232);
+  flex: content;
+  
+}
+
+
+#mainHeader {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(123, 8, 48), 0 0 5px rgb(137, 9, 60);
+  background-image: linear-gradient(rgb(93, 19, 45), rgb(216, 86, 125));
+  background-color: rgb(210, 69, 118);
+  height: 118px;
+  width: 1024;
+  font-size: 80px;
+  font-style: italic;
+  display: flex;
+  color:rgb(240, 177, 189)
+  
+}
+
+#secondHeader {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(202, 68, 110), 0 0 5px rgb(145, 24, 67);
+  white-space: nowrap;
+  width: 200px;
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-image: linear-gradient(rgb(97, 12, 42), rgb(218, 74, 119));
+  background-color: rgb(210, 68, 116);
+  height: 60px;
+  width: 100;
+  font-size: 50px;
+  font-style: italic;
+  display: flex;
+  color:#eab6c4
+  
+}
+
+button {
+  background-image: linear-gradient(rgb(97, 12, 42), rgb(166, 67, 99));
+
+  font-style: italic;
+  font-size:15px;
+  color: rgb(233, 170, 192);
+  background-color:rgb(182, 91, 118)
+
+ }
+
+ button:hover {
+  transform:translateY(-10px)
+}
+
+.img-lipstick1{
+  display:block;
+        margin-left:auto;
+        margin-right:auto;
+        display: flex;
+        justify-content: center;
+        width:200px;
 }
